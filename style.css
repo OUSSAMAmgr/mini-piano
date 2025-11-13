@@ -4,7 +4,11 @@ body {
     url("images/bg.jpg") ;
 
 }
-
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px; 
+    }
+}
 .title {
   text-align: center;
   color: white;
@@ -47,6 +51,30 @@ kbd {
     font-weight: lighter;
     color: rgb(255, 255, 255, 0.8);
 }
+/* tablette */
+@media screen and (max-width: 768px){
+    .keys .key {
+
+    padding: 1.5rem;
+    width : 30%;
+}
+    .kbd {
+
+    font-size: 1.5rem;
+}
+}
+/* smartphone */
+@media screnn and (max-width: 470){
+        .keys .key {
+
+    padding: 1rem;
+    width : 40%;
+    }
+    .kbd {
+
+    font-size: 1rem;
+}
+}
 .key:hover {
   transform: scale(1.1);
   background-color: rgba(255, 255, 255, 0.1);
@@ -57,7 +85,6 @@ kbd {
     box-shadow: 0 0 10px #d8b60b; 
     background-color:rgb(0, 0, 0, 0.6);
 }
-
 .sound {
     font-size: 16px;
     color: #ffe24f;
