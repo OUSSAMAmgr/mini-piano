@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Mini Piano</title>
+</head>
+<body>
+    <h1 class="title">Mini Piano</h1>
+    <p class="description">Appuie sur les touches de ton clavier (A à I) pour jouer des sons</p>
+
+    <div class="keys">
+        <div data-key="65" class="key ">
+            <kbd>a</kbd>
+            <span class="sound">Pas</span>
+        </div>
+        
+        <div data-key="66" class="key ">
+            <kbd>b</kbd>
+            <span class="sound">Chant d'oiseau</span>
+        </div>
+        <div data-key="67" class="key ">
+            <kbd>c</kbd>
+            <span class="sound">Coup de feu</span>
+        </div>
+        <div data-key="68" class="key ">
+            <kbd>d</kbd>
+            <span class="sound">Électricité</span>
+        </div>
+        <div data-key="69" class="key ">
+            <kbd>e</kbd>
+            <span class="sound">Moteur</span>
+        </div>
+        <div data-key="70" class="key ">
+            <kbd>f</kbd>
+            <span class="sound">Explosion</span>
+        </div>
+        <div data-key="71" class="key ">
+            <kbd>g</kbd>
+            <span class="sound">vent</span>
+        </div>
+        <div data-key="72" class="key ">
+            <kbd>h</kbd>
+            <span class="sound">Cloche</span>
+        </div>
+        <div data-key="73" class="key ">
+            <kbd>i</kbd>
+            <span class="sound">Clic de porte</span>
+        </div>
+    </div>
+    <div class="audios">
+        <audio data-sound="65" src="audios/footsteps-on-wood-397989.mp3"></audio>
+        <audio data-sound="66" src="audios/bird-sound-2-370343.mp3"></audio>
+        <audio data-sound="67" src="audios/gunshot-352466.mp3"></audio>
+        <audio data-sound="68" src="audios/power-failure-44493.mp3"></audio>
+        <audio data-sound="69" src="audios/motorcycle-engine-rev-2-337870.mp3"></audio>
+        <audio data-sound="70" src="audios/loud-explosion-sound-425458.mp3"></audio>
+        <audio data-sound="71" src="audios/halloween-wind-410540.mp3"></audio>
+        <audio data-sound="72" src="audios/bell-ring-390294.mp3"></audio>
+        <audio data-sound="73" src="audios/closed-door-411628.mp3"></audio>
+    </div>
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>
